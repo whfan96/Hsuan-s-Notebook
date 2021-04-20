@@ -238,7 +238,9 @@
                 </span>
             </span>
 
-          <br>
+          
+  
+  <br>
             <span class="post-meta-item" title="文章字數">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -312,6 +314,8 @@
 
           </div>
           
+          <div style="">
+          
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -335,6 +339,7 @@
   }
 </script>
 
+          </div>
         </div>
           
   
@@ -554,6 +559,17 @@ window.addEventListener('pjax:success', () => {
   
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://whfan96.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
 
     </div>
 </body>
