@@ -22,16 +22,20 @@
     var CONFIG = {"hostname":"whfan96.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="口水蟲札記">
-<meta property="og:url" content="https://whfan96.github.io/archives/2021/04/index.html">
+  <meta name="description" content="紀錄 Linux 常用指令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux common commands">
+<meta property="og:url" content="https://whfan96.github.io/2021/09/13/Linux-common-commands/index.html">
 <meta property="og:site_name" content="口水蟲札記">
+<meta property="og:description" content="紀錄 Linux 常用指令">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-09-13T15:06:00.000Z">
+<meta property="article:modified_time" content="2021-09-13T16:05:55.350Z">
 <meta property="article:author" content="Mia Fan">
-<meta property="article:tag" content="程式語言">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://whfan96.github.io/archives/2021/04/">
+<link rel="canonical" href="https://whfan96.github.io/2021/09/13/Linux-common-commands/">
 
 
 <script id="page-configurations">
@@ -39,12 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>歸檔 | 口水蟲札記</title>
+  <title>Linux common commands | 口水蟲札記</title>
   
 
 
@@ -185,70 +189,301 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://whfan96.github.io/2021/09/13/Linux-common-commands/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Mia Fan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="口水蟲札記">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Linux common commands
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2021-09-13 23:06:00" itemprop="dateCreated datePublished" datetime="2021-09-13T23:06:00+08:00">2021-09-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2021-09-14 00:05:55" itemprop="dateModified" datetime="2021-09-14T00:05:55+08:00">2021-09-14</time>
+              </span>
+
+          
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共有 3 篇文章。 繼續努力。</span>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2021/09/13/Linux-common-commands/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/09/13/Linux-common-commands/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>773</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>1 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <p>紀錄 Linux 常用指令</p>
+<span id="more"></span>
+
+<h2 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h2><table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="center">Name</th>
+<th align="left">Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">date</td>
+<td align="center">Date</td>
+<td align="left">查看日期</td>
+</tr>
+<tr>
+<td align="left">cal</td>
+<td align="center">Calendar</td>
+<td align="left">列出日曆</td>
+</tr>
+<tr>
+<td align="left">grep</td>
+<td align="center">Globally search for a regular expression and print matching lines</td>
+<td align="left">搜尋某些特定字元</td>
+</tr>
+</tbody></table>
+<h2 id="網路功能"><a href="#網路功能" class="headerlink" title="網路功能"></a>網路功能</h2><table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="center">Name</th>
+<th align="left">Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">ifconfig</td>
+<td align="center">Interface configuration</td>
+<td align="left">查詢目前系統的網路卡狀況</td>
+</tr>
+<tr>
+<td align="left">ping</td>
+<td align="center">Ping</td>
+<td align="left">查看對方網路是否有動作</td>
+</tr>
+<tr>
+<td align="left">hostname</td>
+<td align="center">Hostname</td>
+<td align="left">查看主機名稱</td>
+</tr>
+<tr>
+<td align="left">nslookup</td>
+<td align="center">From name server lookup</td>
+<td align="left">查詢或反查詢 DNS</td>
+</tr>
+</tbody></table>
+<h2 id="系統管理員"><a href="#系統管理員" class="headerlink" title="系統管理員"></a>系統管理員</h2><table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="center">Name</th>
+<th align="left">Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">top</td>
+<td align="center">Table of processes</td>
+<td align="left">列出目前系統的服務項目的動態資料</td>
+</tr>
+<tr>
+<td align="left">free</td>
+<td align="center">Free</td>
+<td align="left">查看記憶體</td>
+</tr>
+<tr>
+<td align="left">passwd</td>
+<td align="center">Password</td>
+<td align="left">改變密碼</td>
+</tr>
+<tr>
+<td align="left">clear</td>
+<td align="center">Clear</td>
+<td align="left">清除螢幕畫面</td>
+</tr>
+</tbody></table>
+<h2 id="檔案與目錄管理"><a href="#檔案與目錄管理" class="headerlink" title="檔案與目錄管理"></a>檔案與目錄管理</h2><table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="center">Name</th>
+<th align="left">Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">ls</td>
+<td align="center">List</td>
+<td align="left">列出目錄內之檔案與子目錄</td>
+</tr>
+<tr>
+<td align="left">cd</td>
+<td align="center">Change directory</td>
+<td align="left">改變目前目錄</td>
+</tr>
+<tr>
+<td align="left">pwd</td>
+<td align="center">Print work directory</td>
+<td align="left">列出目前所在路徑</td>
+</tr>
+<tr>
+<td align="left">cat</td>
+<td align="center">Concatenate</td>
+<td align="left">列出檔案內容</td>
+</tr>
+<tr>
+<td align="left">more</td>
+<td align="center">More</td>
+<td align="left">讀取更多內容(檔案太大時)</td>
+</tr>
+<tr>
+<td align="left">mkdir</td>
+<td align="center">Make directory</td>
+<td align="left">建立目錄</td>
+</tr>
+<tr>
+<td align="left">rmdir</td>
+<td align="center">Remove directory</td>
+<td align="left">刪除目錄</td>
+</tr>
+<tr>
+<td align="left">rm</td>
+<td align="center">Remove</td>
+<td align="left">刪除檔案</td>
+</tr>
+<tr>
+<td align="left">cp</td>
+<td align="center">Copy</td>
+<td align="left">拷貝檔案</td>
+</tr>
+<tr>
+<td align="left">mv</td>
+<td align="center">Move</td>
+<td align="left">移動檔案或目錄</td>
+</tr>
+<tr>
+<td align="left">find</td>
+<td align="center">Find</td>
+<td align="left">列出尋找的檔案</td>
+</tr>
+</tbody></table>
+<h2 id="登入與登出（開機與關機）"><a href="#登入與登出（開機與關機）" class="headerlink" title="登入與登出（開機與關機）"></a>登入與登出（開機與關機）</h2><table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="center">Name</th>
+<th align="left">Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">telnet</td>
+<td align="center">Teletype network</td>
+<td align="left">遠端登入</td>
+</tr>
+<tr>
+<td align="left">login</td>
+<td align="center">Login</td>
+<td align="left">登入系統</td>
+</tr>
+<tr>
+<td align="left">logout</td>
+<td align="center">Logout</td>
+<td align="left">離開作業系統</td>
+</tr>
+<tr>
+<td align="left">exit</td>
+<td align="center">Exit</td>
+<td align="left">離開 Linux 系統</td>
+</tr>
+<tr>
+<td align="left">shutdown</td>
+<td align="center">Shutdown</td>
+<td align="left">關機</td>
+</tr>
+<tr>
+<td align="left">reboot</td>
+<td align="center">Reboot</td>
+<td align="left">重新開機</td>
+</tr>
+</tbody></table>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-04-19T20:24:47+08:00"
-              content="2021-04-19">
-          04-19
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/04/19/Python-pip/" itemprop="url">
-            <span itemprop="name">Python pip</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-04-18T23:50:34+08:00"
-              content="2021-04-18">
-          04-18
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/04/18/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        
 
 
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/04/19/Python-pip/" rel="prev" title="Python pip">
+      <i class="fa fa-chevron-left"></i> Python pip
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-  </div>
+      </footer>
+    
+  </article>
   
   
-  
-
   
 
 
@@ -257,6 +492,13 @@
           
           <div style="">
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -304,6 +546,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC"><span class="nav-number">1.</span> <span class="nav-text">基本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B6%B2%E8%B7%AF%E5%8A%9F%E8%83%BD"><span class="nav-number">2.</span> <span class="nav-text">網路功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1"><span class="nav-number">3.</span> <span class="nav-text">系統管理員</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E8%88%87%E7%9B%AE%E9%8C%84%E7%AE%A1%E7%90%86"><span class="nav-number">4.</span> <span class="nav-text">檔案與目錄管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%99%BB%E5%85%A5%E8%88%87%E7%99%BB%E5%87%BA%EF%BC%88%E9%96%8B%E6%A9%9F%E8%88%87%E9%97%9C%E6%A9%9F%EF%BC%89"><span class="nav-number">5.</span> <span class="nav-text">登入與登出（開機與關機）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -509,6 +752,27 @@ window.addEventListener('pjax:success', () => {
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.language = "zh_TW";
+    this.page.url = "https://whfan96.github.io/2021/09/13/Linux-common-commands/";
+    this.page.identifier = "2021/09/13/Linux-common-commands/";
+    this.page.title = "Linux common commands";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://whfan96.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
 </script>
 
     </div>
