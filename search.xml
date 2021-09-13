@@ -1,280 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Linux common commands</title>
-    <url>/2021/09/13/Linux-common-commands/</url>
-    <content><![CDATA[<p>紀錄 Linux 常用指令</p>
-<span id="more"></span>
-
-<h2 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h2><table>
-<thead>
-<tr>
-<th align="left">Command</th>
-<th align="center">Name</th>
-<th align="left">Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">date</td>
-<td align="center">Date</td>
-<td align="left">查看日期</td>
-</tr>
-<tr>
-<td align="left">cal</td>
-<td align="center">Calendar</td>
-<td align="left">列出日曆</td>
-</tr>
-<tr>
-<td align="left">grep</td>
-<td align="center">Globally search for a regular expression and print matching lines</td>
-<td align="left">搜尋某些特定字元</td>
-</tr>
-</tbody></table>
-<h2 id="網路功能"><a href="#網路功能" class="headerlink" title="網路功能"></a>網路功能</h2><table>
-<thead>
-<tr>
-<th align="left">Command</th>
-<th align="center">Name</th>
-<th align="left">Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">ifconfig</td>
-<td align="center">Interface configuration</td>
-<td align="left">查詢目前系統的網路卡狀況</td>
-</tr>
-<tr>
-<td align="left">ping</td>
-<td align="center">Ping</td>
-<td align="left">查看對方網路是否有動作</td>
-</tr>
-<tr>
-<td align="left">hostname</td>
-<td align="center">Hostname</td>
-<td align="left">查看主機名稱</td>
-</tr>
-<tr>
-<td align="left">nslookup</td>
-<td align="center">From name server lookup</td>
-<td align="left">查詢或反查詢 DNS</td>
-</tr>
-</tbody></table>
-<h2 id="系統管理員"><a href="#系統管理員" class="headerlink" title="系統管理員"></a>系統管理員</h2><table>
-<thead>
-<tr>
-<th align="left">Command</th>
-<th align="center">Name</th>
-<th align="left">Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">top</td>
-<td align="center">Table of processes</td>
-<td align="left">列出目前系統的服務項目的動態資料</td>
-</tr>
-<tr>
-<td align="left">free</td>
-<td align="center">Free</td>
-<td align="left">查看記憶體</td>
-</tr>
-<tr>
-<td align="left">passwd</td>
-<td align="center">Password</td>
-<td align="left">改變密碼</td>
-</tr>
-<tr>
-<td align="left">clear</td>
-<td align="center">Clear</td>
-<td align="left">清除螢幕畫面</td>
-</tr>
-</tbody></table>
-<h2 id="檔案與目錄管理"><a href="#檔案與目錄管理" class="headerlink" title="檔案與目錄管理"></a>檔案與目錄管理</h2><table>
-<thead>
-<tr>
-<th align="left">Command</th>
-<th align="center">Name</th>
-<th align="left">Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">ls</td>
-<td align="center">List</td>
-<td align="left">列出目錄內之檔案與子目錄</td>
-</tr>
-<tr>
-<td align="left">cd</td>
-<td align="center">Change directory</td>
-<td align="left">改變目前目錄</td>
-</tr>
-<tr>
-<td align="left">pwd</td>
-<td align="center">Print work directory</td>
-<td align="left">列出目前所在路徑</td>
-</tr>
-<tr>
-<td align="left">cat</td>
-<td align="center">Concatenate</td>
-<td align="left">列出檔案內容</td>
-</tr>
-<tr>
-<td align="left">more</td>
-<td align="center">More</td>
-<td align="left">讀取更多內容(檔案太大時)</td>
-</tr>
-<tr>
-<td align="left">mkdir</td>
-<td align="center">Make directory</td>
-<td align="left">建立目錄</td>
-</tr>
-<tr>
-<td align="left">rmdir</td>
-<td align="center">Remove directory</td>
-<td align="left">刪除目錄</td>
-</tr>
-<tr>
-<td align="left">rm</td>
-<td align="center">Remove</td>
-<td align="left">刪除檔案</td>
-</tr>
-<tr>
-<td align="left">cp</td>
-<td align="center">Copy</td>
-<td align="left">拷貝檔案</td>
-</tr>
-<tr>
-<td align="left">mv</td>
-<td align="center">Move</td>
-<td align="left">移動檔案或目錄</td>
-</tr>
-<tr>
-<td align="left">find</td>
-<td align="center">Find</td>
-<td align="left">列出尋找的檔案</td>
-</tr>
-</tbody></table>
-<h2 id="登入與登出（開機與關機）"><a href="#登入與登出（開機與關機）" class="headerlink" title="登入與登出（開機與關機）"></a>登入與登出（開機與關機）</h2><table>
-<thead>
-<tr>
-<th align="left">Command</th>
-<th align="center">Name</th>
-<th align="left">Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">telnet</td>
-<td align="center">Teletype network</td>
-<td align="left">遠端登入</td>
-</tr>
-<tr>
-<td align="left">login</td>
-<td align="center">Login</td>
-<td align="left">登入系統</td>
-</tr>
-<tr>
-<td align="left">logout</td>
-<td align="center">Logout</td>
-<td align="left">離開作業系統</td>
-</tr>
-<tr>
-<td align="left">exit</td>
-<td align="center">Exit</td>
-<td align="left">離開 Linux 系統</td>
-</tr>
-<tr>
-<td align="left">shutdown</td>
-<td align="center">Shutdown</td>
-<td align="left">關機</td>
-</tr>
-<tr>
-<td align="left">reboot</td>
-<td align="center">Reboot</td>
-<td align="left">重新開機</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/04/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Linux common commands</title>
+      <link href="2021/09/13/Linux-common-commands/"/>
+      <url>2021/09/13/Linux-common-commands/</url>
+      
+        <content type="html"><![CDATA[<p>紀錄 Linux 常用指令</p><span id="more"></span><h2 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h2><table><thead><tr><th align="left">Command</th><th align="center">Name</th><th align="left">Documentation</th></tr></thead><tbody><tr><td align="left">date</td><td align="center">Date</td><td align="left">查看日期</td></tr><tr><td align="left">cal</td><td align="center">Calendar</td><td align="left">列出日曆</td></tr><tr><td align="left">grep</td><td align="center">Globally search for a regular expression and print matching lines</td><td align="left">搜尋某些特定字元</td></tr></tbody></table><h2 id="網路功能"><a href="#網路功能" class="headerlink" title="網路功能"></a>網路功能</h2><table><thead><tr><th align="left">Command</th><th align="center">Name</th><th align="left">Documentation</th></tr></thead><tbody><tr><td align="left">ifconfig</td><td align="center">Interface configuration</td><td align="left">查詢目前系統的網路卡狀況</td></tr><tr><td align="left">ping</td><td align="center">Ping</td><td align="left">查看對方網路是否有動作</td></tr><tr><td align="left">hostname</td><td align="center">Hostname</td><td align="left">查看主機名稱</td></tr><tr><td align="left">nslookup</td><td align="center">From name server lookup</td><td align="left">查詢或反查詢 DNS</td></tr></tbody></table><h2 id="系統管理員"><a href="#系統管理員" class="headerlink" title="系統管理員"></a>系統管理員</h2><table><thead><tr><th align="left">Command</th><th align="center">Name</th><th align="left">Documentation</th></tr></thead><tbody><tr><td align="left">top</td><td align="center">Table of processes</td><td align="left">列出目前系統的服務項目的動態資料</td></tr><tr><td align="left">free</td><td align="center">Free</td><td align="left">查看記憶體</td></tr><tr><td align="left">passwd</td><td align="center">Password</td><td align="left">改變密碼</td></tr><tr><td align="left">clear</td><td align="center">Clear</td><td align="left">清除螢幕畫面</td></tr></tbody></table><h2 id="檔案與目錄管理"><a href="#檔案與目錄管理" class="headerlink" title="檔案與目錄管理"></a>檔案與目錄管理</h2><table><thead><tr><th align="left">Command</th><th align="center">Name</th><th align="left">Documentation</th></tr></thead><tbody><tr><td align="left">ls</td><td align="center">List</td><td align="left">列出目錄內之檔案與子目錄</td></tr><tr><td align="left">cd</td><td align="center">Change directory</td><td align="left">改變目前目錄</td></tr><tr><td align="left">pwd</td><td align="center">Print work directory</td><td align="left">列出目前所在路徑</td></tr><tr><td align="left">cat</td><td align="center">Concatenate</td><td align="left">列出檔案內容</td></tr><tr><td align="left">more</td><td align="center">More</td><td align="left">讀取更多內容(檔案太大時)</td></tr><tr><td align="left">mkdir</td><td align="center">Make directory</td><td align="left">建立目錄</td></tr><tr><td align="left">rmdir</td><td align="center">Remove directory</td><td align="left">刪除目錄</td></tr><tr><td align="left">rm</td><td align="center">Remove</td><td align="left">刪除檔案</td></tr><tr><td align="left">cp</td><td align="center">Copy</td><td align="left">拷貝檔案</td></tr><tr><td align="left">mv</td><td align="center">Move</td><td align="left">移動檔案或目錄</td></tr><tr><td align="left">find</td><td align="center">Find</td><td align="left">列出尋找的檔案</td></tr></tbody></table><h2 id="登入與登出（開機與關機）"><a href="#登入與登出（開機與關機）" class="headerlink" title="登入與登出（開機與關機）"></a>登入與登出（開機與關機）</h2><table><thead><tr><th align="left">Command</th><th align="center">Name</th><th align="left">Documentation</th></tr></thead><tbody><tr><td align="left">telnet</td><td align="center">Teletype network</td><td align="left">遠端登入</td></tr><tr><td align="left">login</td><td align="center">Login</td><td align="left">登入系統</td></tr><tr><td align="left">logout</td><td align="center">Logout</td><td align="left">離開作業系統</td></tr><tr><td align="left">exit</td><td align="center">Exit</td><td align="left">離開 Linux 系統</td></tr><tr><td align="left">shutdown</td><td align="center">Shutdown</td><td align="left">關機</td></tr><tr><td align="left">reboot</td><td align="center">Reboot</td><td align="left">重新開機</td></tr></tbody></table>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python pip</title>
+      <link href="2021/04/19/Python-pip/"/>
+      <url>2021/04/19/Python-pip/</url>
+      
+        <content type="html"><![CDATA[<h1 id="軟體包管理系統"><a href="#軟體包管理系統" class="headerlink" title="軟體包管理系統"></a>軟體包管理系統</h1><p>可以安裝和管理軟體包</p><p>pip 是 Python 的軟體包管理系統</p><blockquote><p>目前 Python 3.4 以上和 Python 2.7.9 以上的版本都已經自帶 pip 了</p></blockquote><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip install numpy</span><br></pre></td></tr></table></figure><blockquote><p>可以將 numpy 換成任何想安裝的 Python 套件</p></blockquote><h3 id="更新套件"><a href="#更新套件" class="headerlink" title="更新套件"></a>更新套件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip install -U numpy</span><br></pre></td></tr></table></figure><h3 id="移除安裝過的套件"><a href="#移除安裝過的套件" class="headerlink" title="移除安裝過的套件"></a>移除安裝過的套件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip uninstall numpy</span><br></pre></td></tr></table></figure><h3 id="安裝並且指定套件版本"><a href="#安裝並且指定套件版本" class="headerlink" title="安裝並且指定套件版本"></a>安裝並且指定套件版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ pip install numpy==1.19.1</span><br><span class="line">$ pip install -v numpy==1.19.1</span><br></pre></td></tr></table></figure><blockquote><p>兩個等於符號的前中後都不可以有空格</p></blockquote><h3 id="pip版本"><a href="#pip版本" class="headerlink" title="pip版本"></a>pip版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ pip --version</span><br><span class="line">$ pip -V</span><br></pre></td></tr></table></figure><p>More info: <a href="https://pip.pypa.io/en/stable/quickstart/">pip documentation</a></p><hr><h2 id="匯出匯入-Packages"><a href="#匯出匯入-Packages" class="headerlink" title="匯出匯入 Packages"></a>匯出匯入 Packages</h2><p>對 命令提示字元 (cmd) 按右鍵選擇「以系統管理員身分執行(A)」</p><h3 id="查看目前安裝過-package-及其版本"><a href="#查看目前安裝過-package-及其版本" class="headerlink" title="查看目前安裝過 package 及其版本"></a>查看目前安裝過 package 及其版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip list</span><br></pre></td></tr></table></figure><p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2rpytjZTHosZ5OK2H%2Fimage.png?alt=media&token=19272ea3-db63-4a7c-93f2-b4ffc4b4e989" alt="pip list"></p><h3 id="匯出環境-package"><a href="#匯出環境-package" class="headerlink" title="匯出環境 package"></a>匯出環境 package</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip freeze &gt; &lt;檔案名稱&gt;.txt</span><br></pre></td></tr></table></figure><p>例如：<code>$ pip freeze &gt; package.txt</code></p><p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2sVAV98OoAccyoQEc%2Fimage.png?alt=media&token=931dc9d7-fc5c-44da-bc0a-89cc44e06745" alt="pip freeze"></p><p>如上圖，這將會建立一個 package.txt 檔案，儲存的路徑為 <code>C:\Users\&lt;使用者&gt;</code></p><p>檔案內容包含當前環境中所有套件名稱及各自版本的簡單列表，即 <code>pip list</code> 所列出的套件列表。</p><h3 id="匯入環境-package"><a href="#匯入環境-package" class="headerlink" title="匯入環境 package"></a>匯入環境 package</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip install -r &lt;路徑&gt;\\&lt;檔案名稱&gt;.txt</span><br></pre></td></tr></table></figure><p>例如：<code>$ pip install -r C:\\Users\\&lt;使用者名稱&gt;\\package.txt</code></p><p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2w7lbgQdkyyKwboD9%2Fimage.png?alt=media&token=dc5d929d-28d8-45ff-9f99-2be3a10220bf" alt="pip install -r"></p><blockquote><p>將 package.txt 放到指定位置後，記得語法的路徑位置要更改</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>Hexo</category>
+          
+          <category> Python </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python pip</title>
-    <url>/2021/04/19/Python-pip/</url>
-    <content><![CDATA[<h1 id="軟體包管理系統"><a href="#軟體包管理系統" class="headerlink" title="軟體包管理系統"></a>軟體包管理系統</h1><p>可以安裝和管理軟體包</p>
-<p>pip 是 Python 的軟體包管理系統</p>
-<blockquote>
-<p>目前 Python 3.4 以上和 Python 2.7.9 以上的版本都已經自帶 pip 了</p>
-</blockquote>
-<span id="more"></span>
-
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install numpy</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>可以將 numpy 換成任何想安裝的 Python 套件</p>
-</blockquote>
-<h3 id="更新套件"><a href="#更新套件" class="headerlink" title="更新套件"></a>更新套件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install -U numpy</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="移除安裝過的套件"><a href="#移除安裝過的套件" class="headerlink" title="移除安裝過的套件"></a>移除安裝過的套件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip uninstall numpy</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="安裝並且指定套件版本"><a href="#安裝並且指定套件版本" class="headerlink" title="安裝並且指定套件版本"></a>安裝並且指定套件版本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install numpy==1.19.1</span><br><span class="line">$ pip install -v numpy==1.19.1</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>兩個等於符號的前中後都不可以有空格</p>
-</blockquote>
-<h3 id="pip版本"><a href="#pip版本" class="headerlink" title="pip版本"></a>pip版本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip --version</span><br><span class="line">$ pip -V</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://pip.pypa.io/en/stable/quickstart/">pip documentation</a></p>
-<hr>
-<h2 id="匯出匯入-Packages"><a href="#匯出匯入-Packages" class="headerlink" title="匯出匯入 Packages"></a>匯出匯入 Packages</h2><p>對 命令提示字元 (cmd) 按右鍵選擇「以系統管理員身分執行(A)」</p>
-<h3 id="查看目前安裝過-package-及其版本"><a href="#查看目前安裝過-package-及其版本" class="headerlink" title="查看目前安裝過 package 及其版本"></a>查看目前安裝過 package 及其版本</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip list</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2rpytjZTHosZ5OK2H%2Fimage.png?alt=media&token=19272ea3-db63-4a7c-93f2-b4ffc4b4e989" alt="pip list"></p>
-<h3 id="匯出環境-package"><a href="#匯出環境-package" class="headerlink" title="匯出環境 package"></a>匯出環境 package</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip freeze &gt; &lt;檔案名稱&gt;.txt</span><br></pre></td></tr></table></figure>
-<p>例如：<code>$ pip freeze &gt; package.txt</code></p>
-<p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2sVAV98OoAccyoQEc%2Fimage.png?alt=media&token=931dc9d7-fc5c-44da-bc0a-89cc44e06745" alt="pip freeze"></p>
-<p>如上圖，這將會建立一個 package.txt 檔案，儲存的路徑為 <code>C:\Users\&lt;使用者&gt;</code></p>
-<p>檔案內容包含當前環境中所有套件名稱及各自版本的簡單列表，即 <code>pip list</code> 所列出的套件列表。</p>
-<h3 id="匯入環境-package"><a href="#匯入環境-package" class="headerlink" title="匯入環境 package"></a>匯入環境 package</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install -r &lt;路徑&gt;\\&lt;檔案名稱&gt;.txt</span><br></pre></td></tr></table></figure>
-<p>例如：<code>$ pip install -r C:\\Users\\&lt;使用者名稱&gt;\\package.txt</code></p>
-<p><img src="https://gblobscdn.gitbook.com/assets%2F-MV1_-2uG6tgrY7p2SzL%2F-MV2rcawiakTfA_RsGmY%2F-MV2w7lbgQdkyyKwboD9%2Fimage.png?alt=media&token=dc5d929d-28d8-45ff-9f99-2be3a10220bf" alt="pip install -r"></p>
-<blockquote>
-<p>將 package.txt 放到指定位置後，記得語法的路徑位置要更改</p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> pip </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/04/18/hello-world/"/>
+      <url>2021/04/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
       <categories>
-        <category>Python</category>
+          
+          <category> Hexo </category>
+          
       </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>pip</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
